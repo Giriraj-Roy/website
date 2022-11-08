@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+      },
+      fontFamily:{
+        'junkdog': ['../mad_monkey/src/assets/JunkDog.otf']
       }
     },
   },
