@@ -6,7 +6,8 @@ module.exports = {
       colors: {
       },
       fontFamily:{
-        'junkdog': ['../mad_monkey/src/assets/JunkDog.otf']
+        'junkdog': ['JunkDog'],
+        'gilroy' : ['Gilroy']
       }
     },
   },
