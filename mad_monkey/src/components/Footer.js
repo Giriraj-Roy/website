@@ -35,6 +35,7 @@ const Footer = () => {
               <li className='bg-transparent text-[#0D0D0D] text-xl font-semibold'>hey@gmail.com</li>
               <br/>
             </ul>
+          </div>
         </div>
         <div className='m-auto bg-transparent'>
           <span className='bg-transparent font-gilroy font-extrabold text-2xl text-[#E63946] '>Connect With Us</span>
@@ -44,7 +45,7 @@ const Footer = () => {
           <span>Case Studies</span>
         </div>
       </div>
-      </div>
+      
         <div className='w-full h-[50px] flex justify-center bg-[#28D596] ' >
             <div className='mt-2 bg-transparent  text-black text-2xl font-gilroy font-semibold '>
               Designed & built with passion in India 🚀
