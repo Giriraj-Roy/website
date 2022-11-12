@@ -8,13 +8,13 @@ import Home from './pages/Home'
 const App = () => {
 
   return (
-    <>
+    <div className=''>
       <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route exact path='/contact' element={<Contact/>} />
         <Route exact path='/casestudies' element={<CaseStudies/>} />
       </Routes>
-    </>
+    </div>
   )
 }
 

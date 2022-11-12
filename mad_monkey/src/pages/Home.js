@@ -7,7 +7,7 @@ import img1 from '../assets/astronaut.png'
 
 const Home = () => {
   return (
-    <div>
+    <div className='ml-12'>
       <div>
         <div className='sm:flex'>
           <div className='mt-32 w-full sm:w-2/5 font-gilroy'>

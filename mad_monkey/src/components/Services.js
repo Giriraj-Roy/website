@@ -13,7 +13,7 @@ const Services = () => {
         Our offerings which will make you grow
       </div>
       <div className='block lg:flex mr-10'>
-        <div className='w-4/5 lg:w-1/2 aspect-[7/6] mr-16 p-16 lg:p-0 rounded-3xl bg-gradient-to-br from-[#FFA51E] to-[#FA5A92] '>
+        <div className='w-4/5 lg:w-1/2 aspect-[7/6] mr-16 p-11 lg:p-0 rounded-3xl bg-gradient-to-br from-[#FFA51E] to-[#FA5A92] '>
               <img className='md:mx-10 md:my-10 bg-transparent' src={img1} alt=''/>
               <span className='hidden sm:block bg-transparent  my-10 mx-10 text-[#FFFFFF] font-gilroy text-3xl font-semibold '>
               Customer Review Management
@@ -23,7 +23,7 @@ const Services = () => {
               </div>
         </div>
 
-        <div className='w-4/5 lg:w-1/2 aspect-[7/6] mt-10 lg:mt-0 p-16 lg:p-0 rounded-3xl bg-gradient-to-br from-[#FFA51E] to-[#FA5A92] '>
+        <div className='w-4/5 lg:w-1/2 aspect-[7/6] mt-10 lg:mt-0 p-11 lg:p-0 rounded-3xl bg-gradient-to-br from-[#FFA51E] to-[#FA5A92] '>
               <img className=' md:mx-10 md:my-10 bg-transparent' src={img2} alt=''/>
               <div className='hidden sm:block bg-transparent my-10 mx-10 text-[#FFFFFF] font-gilroy text-3xl font-semibold '>
                 Influencer Marketing
