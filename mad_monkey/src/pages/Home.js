@@ -4,6 +4,7 @@ import Process from '../components/Process'
 import ResultDriven from '../components/ResultDriven'
 import Services from '../components/Services'
 import img1 from '../assets/astronaut.png'
+import Whyus from '../components/Whyus'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
         <Services/>
         <Process/>
         <ResultDriven/>
+        <Whyus/>
       </div>
     </div>
   )
