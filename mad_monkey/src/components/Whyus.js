@@ -6,7 +6,7 @@ import emo3 from '../assets/image 29.png'
 
 const Whyus = () => {
     return (
-        <div>
+        <div className='mt-96'>
             <div className='font-gilroy text-[#FFFF00] text-xl'>
                 WHY US ---
             </div>
