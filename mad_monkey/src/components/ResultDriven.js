@@ -35,19 +35,19 @@ const ResultDriven = () => {
       </div>
 
 
-      <div className='my-40 flex'>
-        <div className='w-2/5' >
-          <img className='bg-transparent absolute ml-8 mt-20' src={hand} alt='hand'/>
-          <img className='bg-transparent ml-64' src={ellipse} alt='ellipse'/>
+      <div className='my-40 md:flex'>
+        <div className='w-full md:w-2/5' >
+          <img className='bg-transparent absolute md:ml-8 mt-20 w-1/2 md:w-auto' src={hand} alt='hand'/>
+          <img className='bg-transparent ml-16 md:ml-64' src={ellipse} alt='ellipse'/>
         </div>
-        <div className='w-1/2'>
-          <div className='text-[#FFFFFF] font-semibold font-gilroy text-5xl  '>
+        <div className='mt-40 md:mt-0 w-full md:w-1/2'>
+          <div className='text-[#FFFFFF] font-semibold font-gilroy text-3xl md:text-5xl   '>
           Want campaigns on your own platform ?
           </div>
-          <div className='my-12 text-lg font-gilroy'>
+          <div className='hidden md:block my-12 text-lg font-gilroy'>
           The brand is all about how your customers think about you. With our extensive experience in E-commerce marketing, grow your brand name from scratch.<br/> Kick-start your platform, Ignite the fire, sit back and watch Mad Monkey spread your light in the "Lanka" of budding entrepreneurship.          </div>
 
-          <button className='px-10 py-3 bg-white rounded-lg text-[#000000] font-[500] text-xl'>
+          <button className='my-10 px-10 py-3 bg-white rounded-lg text-[#000000] font-[500] text-xl'>
               Speak To Us
           </button>
         </div>

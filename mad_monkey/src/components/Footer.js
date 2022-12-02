@@ -47,9 +47,9 @@ const Footer = () => {
           <br className='hidden md:block'/>
           <br className='hidden md:block'/>
           <div className='bg-transparent flex'>
-            <span><img className='bg-transparent' src={linkedin} alt='linkedin'/></span>
-            <span><img className='bg-transparent' src={insta} alt='insta'/></span>
-            <span><img className='bg-transparent' src={facebook} alt='facebook'/></span>
+            <img className='bg-transparent' src={linkedin} alt='linkedin'/>
+            <img className='bg-transparent' src={insta} alt='insta'/>
+            <img className='bg-transparent' src={facebook} alt='facebook'/>
 
           </div>
 

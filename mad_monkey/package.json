@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "hamburger-react": "^2.5.0",
+    "react-horizontal-scrolling": "^0.1.13",
     "tailwindcss": "^3.2.2"
   }
 }
