@@ -5,7 +5,7 @@ import ellipse from '../assets/Ellipse 194.png'
 
 const ResultDriven = () => {
   return (
-    <div className='' >
+    <div className='ml-12' >
       <div className='font-gilroy text-[#FFFF00] text-xl my-10 '>
         RESULT-DRIVEN SOLUTIONS ---
       </div>

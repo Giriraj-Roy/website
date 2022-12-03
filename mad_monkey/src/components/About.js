@@ -3,6 +3,7 @@ import img from '../assets/Tie.png'
 
 const About = () => {
   return (
+    <div className='ml-12'>
     <div className='block lg:flex mt-16 ml-7'>
       <div className='w-4/5 lg:w-1/2 py-10 px-3 lg:px-0 lg:py-40 bg-[#F4F3EE] rounded-3xl'>
               <img className='bg-transparent m-auto' src={img} alt='monkey'/>
@@ -32,6 +33,7 @@ const About = () => {
             </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

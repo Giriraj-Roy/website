@@ -5,7 +5,7 @@ import img2 from '../assets/Group 46.png'
 
 const Services = () => {
   return (
-    <div>
+    <div className='ml-12'>
       <div className='font-gilroy text-lg mt-32 mb-16 text-[#FFFF00]'>
         SERVICES ---
       </div>
