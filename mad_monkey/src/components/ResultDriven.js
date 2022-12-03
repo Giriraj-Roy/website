@@ -44,7 +44,7 @@ const ResultDriven = () => {
           <div className='text-[#FFFFFF] font-semibold font-gilroy text-3xl md:text-5xl   '>
           Want campaigns on your own platform ?
           </div>
-          <div className='hidden md:block my-12 text-lg font-gilroy'>
+          <div className='block my-12 text-lg font-gilroy'>
           The brand is all about how your customers think about you. With our extensive experience in E-commerce marketing, grow your brand name from scratch.<br/> Kick-start your platform, Ignite the fire, sit back and watch Mad Monkey spread your light in the "Lanka" of budding entrepreneurship.          </div>
 
           <button className='my-10 px-10 py-3 bg-white rounded-lg text-[#000000] font-[500] text-xl'>
