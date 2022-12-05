@@ -7,16 +7,16 @@ import img3 from '../assets/download (15) 1.png'
 
 const Process = () => {
   return (
-  <div>
-    <div className='mt-64 ml-12'>
+  <div className='my-72 '>
+    <div className='ml-12 '>
       <div className='font-gilroy text-[#FFFF00] text-xl my-10' >
         KEY PROCESS ---
       </div>
       <div className='font-gilroy text-3xl md:text-5xl font-semibold my-10 w-4/5 md:w-1/2'>
         We believe in Design Thinking
       </div>
-      <div className='flex font-gilroy justify-around'>
-        <div>
+      <div className='flex relative font-gilroy justify-around z-40 bg-transparent'>
+        <div className='bg-transparent' >
           <div className='text-2xl w-fit font-[400] border-b-[6px] rounded border-[#FFFF00] '>
             01.
           </div>
@@ -30,7 +30,7 @@ const Process = () => {
                 <img className='bg-transparent' src={img1} alt="man"/>
           </div>
         </div>
-        <div>
+        <div className='bg-transparent'>
           <div className='text-2xl w-fit font-[400] border-b-[6px] rounded border-[#FFFF00] '>
             02.
           </div>
@@ -48,7 +48,7 @@ const Process = () => {
             <img className='mt-6 bg-transparent' src={img2a} alt="laptop"/>
           </div>
         </div>
-        <div>
+        <div className='bg-transparent'>
           <div className='text-2xl w-fit font-[400] border-b-[6px] rounded border-[#FFFF00] '>
             03.
           </div>
@@ -59,7 +59,7 @@ const Process = () => {
           Our highly skilled and determined team then put their heart and soul to execute these strategies.
           </div>
           <div className='pt-24 w-[95%] bg-[#5ED0E7] rounded-3xl '>
-            <img className='mt-2 bg-transparent ' src={img3} alt='man2'/>
+            <img className='mt-2 bg-transparent' src={img3} alt='man2'/>
           </div>
         </div>
 
@@ -67,15 +67,15 @@ const Process = () => {
       </div>
 
     </div>
-    <div className='bg-[#F4F3EE] font-gilroy '>
-        <div className='bg-transparent text-[#0D0D0D] '>
+    <div className='bg-[#F4F3EE] block absolute top-[220rem] z-[0] text-center pt-64 w-full font-gilroy font-600'>
+        <div className='my-4 bg-transparent text-[#0D0D0D] text-base   '>
           WHAT DO YOU NEED TO GET YOUR BUSINESS MOVING?
         </div>
-        <div className='bg-transparent text-[#0D0D0D] '>
+        <div className='bg-transparent text-[#0D0D0D] text-[3.75rem] '>
           Join the Mad Monkey bandwagon and solidify your brand in this concrete jungle now!
         </div>
-        <button className='bg-[#0D0D0D]'>
-          Speak to us
+        <button className='my-12 px-10 py-4 text-2xl rounded-xl bg-[#0D0D0D]'>
+          Speak to us 
         </button>
     </div>
 

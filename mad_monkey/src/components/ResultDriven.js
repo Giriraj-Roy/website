@@ -5,14 +5,14 @@ import ellipse from '../assets/Ellipse 194.png'
 
 const ResultDriven = () => {
   return (
-    <div className='ml-12' >
+    <div className='ml-12 mt-[50rem]' >
       <div className='font-gilroy text-[#FFFF00] text-xl my-10 '>
         RESULT-DRIVEN SOLUTIONS ---
       </div>
       <div className='block md:flex w-9/10'>
         <div className='w-1/2 mr-10'>
-          <div className='font-gilroy text-3xl md:text-5xl font-semibold my-10 w-4/5 md:w-full'>
-            Innovation, adaption, execution.
+          <div className='font-gilroy text-3xl md:text-5xl font-semibold my-10 w-4/5 '>
+            We learn, adapt & innovate
           </div>
           <div className='hidden md:block font-gilroy text-xl  text-justify my-10'>
           In today’s world, there is no defined solution. We are life-long learning experts with a strong focus on generating results and boosting brand trust. We are different because we believe in bringing new ideas to the table for every client. Our work is driven by a thorough research and understanding customized for each brand to unlock its own potential value.
