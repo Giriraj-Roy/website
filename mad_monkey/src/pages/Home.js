@@ -9,6 +9,8 @@ import Numbers from '../components/Numbers'
 import ContactUs from '../components/ContactUs'
 import CaseStudies from '../components/CaseStudies'
 import HomeComp from '../components/HomeComp'
+import Clients from '../components/Clients'
+import Collaborate from '../components/Collaborate'
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
       <ResultDriven/>
       <Whyus/>
       <Numbers/>
+      <Collaborate/>
+      <Clients/>
       <CaseStudies/>
       <ContactUs/>
     </div>

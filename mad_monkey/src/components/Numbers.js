@@ -2,7 +2,7 @@ import React from 'react'
 
 const Numbers = () => {
   return (
-    <div className='my-40 w-full aspect-[4/1] bg-[#08BA64] font-serif  text-[#FFFFFF] text-center'>
+    <div className='my-40 w-full aspect-[4/1] bg-[#08BA64] font-gilroy text-[#FFFFFF] text-center'>
         <div className='my-16 pt-16 bg-inherit'>
             <div className='bg-inherit text-5xl  font-[800] '>
                 Some numbers that matter
