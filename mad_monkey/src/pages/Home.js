@@ -1,16 +1,16 @@
 import React from 'react'
-import About from '../components/About'
-import Process from '../components/Process'
-import ResultDriven from '../components/ResultDriven'
-import Services from '../components/Services'
+import About from '../components/HomePage/About'
+import Process from '../components/HomePage/Process'
+import ResultDriven from '../components/HomePage/ResultDriven'
+import Services from '../components/HomePage/Services'
 // import img1 from '../assets/astronaut.png'
-import Whyus from '../components/Whyus'
-import Numbers from '../components/Numbers'
+import Whyus from '../components/HomePage/Whyus'
+import Numbers from '../components/HomePage/Numbers'
 import ContactUs from '../components/ContactUs'
-import CaseStudies from '../components/CaseStudies'
-import HomeComp from '../components/HomeComp'
-import Clients from '../components/Clients'
-import Collaborate from '../components/Collaborate'
+import CaseStudies from '../components/HomePage/CaseStudies'
+import HomeComp from '../components/HomePage/HomeComp'
+import Clients from '../components/HomePage/Clients'
+import Collaborate from '../components/HomePage/Collaborate'
 
 const Home = () => {
   return (
@@ -21,7 +21,7 @@ const Home = () => {
       <Process/>
       <ResultDriven/>
       <Whyus/>
-      <Numbers/>
+      <Numbers />
       <Collaborate/>
       <Clients/>
       <CaseStudies/>

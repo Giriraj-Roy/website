@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../assets/quote.png'
-import reviews from '../Reviews'
+import img1 from '../../assets/quote.png'
+import reviews from '../../Reviews'
 
 const Collaborate = () => {
     return (

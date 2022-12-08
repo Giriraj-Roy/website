@@ -1,7 +1,7 @@
 import React from 'react'
-import emo1 from '../assets/image 26.png'
-import emo2 from '../assets/image 121.png'
-import emo3 from '../assets/image 29.png'
+import emo1 from '../../assets/image 26.png'
+import emo2 from '../../assets/image 121.png'
+import emo3 from '../../assets/image 29.png'
 
 
 const Whyus = () => {

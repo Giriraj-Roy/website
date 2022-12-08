@@ -1,7 +1,8 @@
 import React from 'react'
-import img2 from '../assets/Simply Whyte Design 1.png'
-import hand from '../assets/hand_house.png'
-import ellipse from '../assets/Ellipse 194.png'
+
+import img2 from '../../assets/Simply Whyte Design 1.png'
+import hand from '../../assets/hand_house.png'
+import ellipse from '../../assets/Ellipse 194.png'
 
 const ResultDriven = () => {
   return (

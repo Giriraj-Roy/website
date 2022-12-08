@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../assets/Group 45.png'
-import img2 from '../assets/Group 46.png'
+import img1 from '../../assets/Group 45.png'
+import img2 from '../../assets/Group 46.png'
 
 
 const Services = () => {

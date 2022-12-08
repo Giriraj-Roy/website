@@ -1,9 +1,10 @@
 import React from 'react'
-import img1 from '../assets/editorial illustrations 1.png'
-import img2a from '../assets/Explainer animation 2_prev_ui 1.png'
-import img2b from '../assets/Explainer animation 3_prev_ui 1.png'
-import img2c from '../assets/Explainer animation 4_prev_ui 1.png'
-import img3 from '../assets/download (15) 1.png'
+
+import img1 from '../../assets/editorial illustrations 1.png'
+import img2a from '../../assets/Explainer animation 2_prev_ui 1.png'
+import img2b from '../../assets/Explainer animation 3_prev_ui 1.png'
+import img2c from '../../assets/Explainer animation 4_prev_ui 1.png'
+import img3 from '../../assets/download (15) 1.png'
 
 const Process = () => {
   return (

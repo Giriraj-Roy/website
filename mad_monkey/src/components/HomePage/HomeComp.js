@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from '../assets/astronaut.png'
-import img2 from '../assets/Frame 16.png'
-import img3 from '../assets/Frame 17.png'
-import img4 from '../assets/Frame 18.png'
-import img5 from '../assets/Frame 19.png'
+import img1 from '../../assets/astronaut.png'
+import img2 from '../../assets/Frame 16.png'
+import img3 from '../../assets/Frame 17.png'
+import img4 from '../../assets/Frame 18.png'
+import img5 from '../../assets/Frame 19.png'
 
 
 
