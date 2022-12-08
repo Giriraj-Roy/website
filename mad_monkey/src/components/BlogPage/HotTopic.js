@@ -1,7 +1,5 @@
 import React from 'react'
 import emo1 from '../../assets/Emojis/image 111.png'
-// import emo2 from '../../assets/Emojis/image 1367.png'
-// import emo3 from '../../assets/Emojis/image 1382.png'
 
 
 const HotTopic = () => {
@@ -12,14 +10,14 @@ const HotTopic = () => {
             Hot Topic
         </div>
         <div className='block md:flex'>
-            <div className='w-full md:w-4/5 md:w-1/2 aspect-[4/3] rounded-3xl bg-white '>
+            <div className='w-full md:w-1/2 aspect-[4/3] rounded-3xl bg-white '>
 
             </div>
             <div className=' md:ml-10 w-full md:w-1/2 text-white'>
                 <div className='my-10 text-3xl md:text-[2.5rem] font-[600] '>
                 How to add multiplication in history of deathnote by saiman says and dont know lets find out
                 </div>
-                <div className='text-xl md:text-2xl font-[500]'>
+                <div className='text-xl md:text-2xl font-[500] line-clamp-2 md:line-clamp-none'>
                 How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication in history of deathnote by saiman says and dont know lets find out
                 </div>
                 <button className='my-8 px-10 py-2 text-[#0D0D0D] text-[1.5rem] font-[600] rounded-full bg-[#FFFFFF] '>
