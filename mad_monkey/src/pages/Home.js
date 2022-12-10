@@ -2,7 +2,7 @@ import React from 'react'
 import About from '../components/HomePage/About'
 import Process from '../components/HomePage/Process'
 import ResultDriven from '../components/HomePage/ResultDriven'
-import Services from '../components/HomePage/Services'
+// import Services from '../components/HomePage/Services'
 // import img1 from '../assets/astronaut.png'
 import Whyus from '../components/HomePage/Whyus'
 import Numbers from '../components/HomePage/Numbers'
@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <HomeComp/>
       <About/>
-      <Services/>
+      {/* <Services/>      //This Section is no more need. Services has a separate page now */}
       <Process/>
       <ResultDriven/>
       <Whyus/>

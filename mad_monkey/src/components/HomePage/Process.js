@@ -68,7 +68,7 @@ const Process = () => {
       </div>
 
     </div>
-    <div className='bg-[#F4F3EE] block absolute top-[220rem] z-[0] text-center pt-64 w-full font-gilroy font-600'>
+    <div className='bg-[#F4F3EE] block absolute top-[165rem] z-[0] text-center pt-64 w-full font-gilroy font-600'>
         <div className='my-4 bg-transparent text-[#0D0D0D] text-base   '>
           WHAT DO YOU NEED TO GET YOUR BUSINESS MOVING?
         </div>
