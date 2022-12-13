@@ -10,95 +10,116 @@ const Latest = () => {
             Latest
         </div>
         <div className='block  md:grid grid-cols-3'>
-          <div className='w-full md:w-4/5'>
-            <div className='my-10 w-full aspect-[4/3] bg-white rounded-3xl'>
+          <div className='w-full md:w-4/5 flex md:block'>
+            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
             </div>
-            <div className=''>
-              <div className='my-10 text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
+            <div className='w-3/5 md:w-auto'>
+              <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
               How to add multiplication in history of deathnote by the world
               </div>
-              <div className='text-xl md:text-2xl font-[500] line-clamp-3'>
-              How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+              <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
+
+                  How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+
+
               </div>
+              <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
+                Read More
+              </button>
             </div>
-            <button className='my-8 px-10 py-2 text-[#0D0D0D] text-[1.5rem] font-[600] rounded-full bg-[#FFFFFF] '>
+            {/* <button className='md:my-8 md:px-10 md:py-2 text-white md:text-[#0D0D0D] md:text-[1.5rem] font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
-            </button>
+            </button> */}
           </div>
-          <div className='w-full md:w-4/5'>
-            <div className='my-10 w-full aspect-[4/3] bg-white rounded-3xl'>
+          <div className='w-full md:w-4/5 flex md:block'>
+            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
             </div>
-            <div className=''>
-              <div className='my-10 text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
+            <div className='w-3/5 md:w-auto'>
+              <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
               How to add multiplication in history of deathnote by the world
               </div>
-              <div className='text-xl md:text-2xl font-[500] line-clamp-3'>
+              <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
               How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
               </div>
-            </div>
-            <button className='my-8 px-10 py-2 text-[#0D0D0D] text-[1.5rem] font-[600] rounded-full bg-[#FFFFFF] '>
+              <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
             </button>
+            </div>
+            {/* <button className='md:my-8 md:px-10 md:py-2 text-white md:text-[#0D0D0D] md:text-[1.5rem] font-[600] md:rounded-full md:bg-[#FFFFFF] '>
+              Read More
+            </button> */}
           </div>
-          <div className='w-full md:w-4/5'>
-            <div className='my-10 w-full aspect-[4/3] bg-white rounded-3xl'>
+          <div className='w-full md:w-4/5 flex md:block'>
+            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
             </div>
-            <div className=''>
-              <div className='my-10 text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
+            <div className='w-3/5 md:w-auto'>
+              <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
               How to add multiplication in history of deathnote by the world
               </div>
-              <div className='text-xl md:text-2xl font-[500] line-clamp-3'>
+              <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
               How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
               </div>
-            </div>
-            <button className='my-8 px-10 py-2 text-[#0D0D0D] text-[1.5rem] font-[600] rounded-full bg-[#FFFFFF] '>
+              <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
             </button>
+            </div>
+            {/* <button className='md:my-8 md:px-10 md:py-2 text-white md:text-[#0D0D0D] md:text-[1.5rem] font-[600] md:rounded-full md:bg-[#FFFFFF] '>
+              Read More
+            </button> */}
           </div>
-          <div className='w-full md:w-4/5'>
-            <div className='my-10 w-full aspect-[4/3] bg-white rounded-3xl'>
+          <div className='w-full md:w-4/5 flex md:block'>
+            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
             </div>
-            <div className=''>
-              <div className='my-10 text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
+            <div className='w-3/5 md:w-auto'>
+              <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
               How to add multiplication in history of deathnote by the world
               </div>
-              <div className='text-xl md:text-2xl font-[500] line-clamp-3'>
+              <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
               How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
               </div>
-            </div>
-            <button className='my-8 px-10 py-2 text-[#0D0D0D] text-[1.5rem] font-[600] rounded-full bg-[#FFFFFF] '>
+              <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
             </button>
+            </div>
+            {/* <button className='md:my-8 md:px-10 md:py-2 text-white md:text-[#0D0D0D] md:text-[1.5rem] font-[600] md:rounded-full md:bg-[#FFFFFF] '>
+              Read More
+            </button> */}
           </div>
-          <div className='w-full md:w-4/5'>
-            <div className='my-10 w-full aspect-[4/3] bg-white rounded-3xl'>
+          <div className='w-full md:w-4/5 flex md:block'>
+            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
             </div>
-            <div className=''>
-              <div className='my-10 text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
+            <div className='w-3/5 md:w-auto'>
+              <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
               How to add multiplication in history of deathnote by the world
               </div>
-              <div className='text-xl md:text-2xl font-[500] line-clamp-3'>
+              <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
               How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
               </div>
-            </div>
-            <button className='my-8 px-10 py-2 text-[#0D0D0D] text-[1.5rem] font-[600] rounded-full bg-[#FFFFFF] '>
+              <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
             </button>
+            </div>
+            {/* <button className='md:my-8 md:px-10 md:py-2 text-white md:text-[#0D0D0D] md:text-[1.5rem] font-[600] md:rounded-full md:bg-[#FFFFFF] '>
+              Read More
+            </button> */}
           </div>
-          <div className='w-full md:w-4/5'>
-            <div className='my-10 w-full aspect-[4/3] bg-white rounded-3xl'>
+          <div className='w-full md:w-4/5 flex md:block'>
+            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
             </div>
-            <div className=''>
-              <div className='my-10 text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
+            <div className='w-3/5 md:w-auto'>
+              <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
               How to add multiplication in history of deathnote by the world
               </div>
-              <div className='text-xl md:text-2xl font-[500] line-clamp-3'>
+              <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
               How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
               </div>
-            </div>
-            <button className='my-8 px-10 py-2 text-[#0D0D0D] text-[1.5rem] font-[600] rounded-full bg-[#FFFFFF] '>
+              <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
             </button>
+            </div>
+            {/* <button className='md:my-8 md:px-10 md:py-2 text-white md:text-[#0D0D0D] md:text-[1.5rem] font-[600] md:rounded-full md:bg-[#FFFFFF] '>
+              Read More
+            </button> */}
           </div>
         </div>
     </div>

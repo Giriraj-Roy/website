@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <HomeComp/>
       <About/>
-      {/* <Services/>      //This Section is no more need. Services has a separate page now */}
+      {/* <Services/>      //This Section is no more needed. Services has a separate page now */}
       <Process/>
       <ResultDriven/>
       <Whyus/>
