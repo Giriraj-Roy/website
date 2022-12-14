@@ -5,7 +5,7 @@ import img from '../../assets/Services/Group (2).png'
 const Branding = () => {
   return (
     <div className='my-32 block md:flex font-gilroy text-justify'>
-      <div className='mx-6 md:mx-16 my-16 md:my-0  w-[70%] md:w-9/10 md:w-2/5'>
+      <div className='mx-16 md:mx-16 my-16 md:my-0  w-[70%] md:w-9/10 md:w-2/5'>
         <img className='w-full' src={img} alt="customer"/>
       </div>
       <div className='mx-16 md:mx-0 md:ml-16 py-8 md:py-0 w-[70%] md:w-3/5 bg-[#E63946] rounded-3xl md:rounded-l-[3rem] md:rounded-r-none'>
