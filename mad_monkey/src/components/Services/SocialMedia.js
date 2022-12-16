@@ -5,7 +5,9 @@ import img from '../../assets/Services/Group (3).png'
 const SocialMedia = () => {
   return (
     <div className='my-32 block md:flex font-gilroy '>
-
+      <div className='block md:hidden my-16 md:my-0 mx-16 md:mx-16 w-[70%] md:w-9/10 md:w-2/5'>
+        <img className='w-full' src={img} alt="customer"/>
+      </div>
       <div className='mx-16 md:mx-0 md:mr-16 py-8 md:py-10 w-[70%] md:w-3/5 bg-[#00916E] rounded-3xl md:rounded-r-[3rem] md:rounded-l-none text-justify  '>
         <div className='mx-10 md:mx-0 md:ml-[20rem] my-16 w-fit bg-transparent text-white text-4xl  font-[700]  '>
         Social Media Marketing
@@ -15,7 +17,7 @@ const SocialMedia = () => {
         </div>
 
       </div>
-      <div className='my-16 md:my-0 mx-16 md:mx-16 w-[70%] md:w-9/10 md:w-2/5'>
+      <div className='hidden md:block my-16 md:my-0 mx-16 md:mx-16 w-[70%] md:w-9/10 md:w-2/5'>
         <img className='w-full' src={img} alt="customer"/>
       </div>
     </div>
