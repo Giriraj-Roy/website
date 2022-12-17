@@ -11,6 +11,10 @@
     font-family: "Gilroy";
     src: url("./assets/fonts/Gilroy.otf");
   }
+  @font-face {
+    font-family: "Bebas Neue";
+    src: url("./assets/fonts/BebasNeue-Regular.ttf");
+  }
 
 
 *{
