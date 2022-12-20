@@ -12,7 +12,7 @@ const Footer = () => {
           <br/><br/>
           <span className=' bg-transparent font-gilroy font-semibold text-sm md:text-2xl text-[#E63946] '>India’s Leading Product Marketing Agency</span>
         </div>
-        <div className='mx-auto mt-1 md:mt-24 block bg-transparent'>
+        <div className='mx-2 md:mx-auto mt-1 md:mt-24 block bg-transparent'>
           <span className='bg-transparent font-gilroy font-extrabold text-sm md:text-2xl text-[#E63946] '>Navigation</span>
           <br className='hidden md:block'/>
           <br className='hidden md:block'/>
@@ -29,7 +29,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className='mx-auto mt-1 md:mt-24 bg-transparent'>
+        <div className='mx-2 md:mx-auto mt-1 md:mt-24 bg-transparent'>
           <span className='bg-transparent font-gilroy font-extrabold text-sm md:text-2xl text-[#E63946] '>Reach Us</span>
           <br className='hidden md:block'/>
           <br className='hidden md:block'/>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className='mx-auto mt-1 md:mt-24 bg-transparent'>
+        <div className='mx-2 md:mx-auto mt-1 md:mt-24 bg-transparent'>
           <span className='bg-transparent font-gilroy font-extrabold text-sm md:text-2xl text-[#E63946] '>Connect With Us</span>
           <br className='hidden md:block'/>
           <br className='hidden md:block'/>

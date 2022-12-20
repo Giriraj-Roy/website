@@ -8,10 +8,10 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
 
   return (
-    <div className='flex mt-[40px] ml-12'>
-        <Link className='p-4 font-junkdog text-[#FF6E1A] text-[36px]' to='/'>Mad Monkey</Link>
+    <div className='flex mt-[40px] ml-4 md:ml-12'>
+        <Link className='md:p-4 font-junkdog text-[#FF6E1A] text-[36px]' to='/'>Mad Monkey</Link>
 
-        <div className= {`block lg:hidden m-auto`} onClick= { () => setOpen(!open)} >
+        <div className= {`block w-1/12 lg:hidden ml-20`} onClick= { () => setOpen(!open)} >
           <Hamburger />
         </div>
 

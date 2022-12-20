@@ -10,22 +10,22 @@ import img5 from '../../assets/facebook.png'
 const Contact = () => {
   return (
     <div className='block md:flex
-                    mx-6  md:mx-16 my-10
-                    px-6  md:px-16 md:py-20
-                    w-[90%]
-                    bg-[#E63946] rounded-[3rem]  ' >
+                    mx-2  md:mx-16 my-20 md:my-10
+                    px-0  md:px-16 md:py-20
+                    w-[100%]
+                    md:bg-[#E63946] rounded-[3rem]  ' >
 
 
       <div className='block
-                      ml-10
-                      w-2/5
+                      ml-8 md:ml-10
+                      w-[80%] md:w-2/5
                       bg-transparent'>
 
 
         <div className='bg-transparent 
                         font-bebas-neue font-[400] 
-                        text-7xl text-shadow-3xl
-                        leading-[5rem] '>
+                        text-5xl md:text-7xl text-shadow-2xl md:text-shadow-3xl
+                        md:leading-[5rem] '>
           Be the brand that customers want & competitors envy.
         </div>
 
@@ -69,79 +69,80 @@ const Contact = () => {
 
 
 
-      <div className='ml-20
+      <div className='mt-10 md:mt-0 ml-4 md:ml-20
+                      py-2
                     bg-[#FFFFFF] rounded-3xl
-                      w-1/2 '>
+                      w-[90%] md:w-1/2 '>
           <div className='bg-transparent'>
 
-              <div className='mt-12
+              <div className='mt-2 md:mt-12
                               bg-transparent
-                              text-center text-[#FF5E19] text-5xl 
+                              text-center text-[#FF5E19] text-2xl md:text-5xl 
                               font-gilroy font-[700]'>
                   Contact Us
               </div>
               <div className='my-2
                               bg-transparent
-                              text-center text-[#00000080] text-base
+                              text-center text-[#00000080] text-xs md:text-base
                               font-gilroy font-[500] '>
                   We will connect with you in 24hrs
               </div>
           </div>
-          <div className='mx-12 my-3 bg-transparent'>
+          <div className='mx-2 md:mx-12 my-3 bg-transparent'>
               <div className='mb-1
                               bg-transparent
-                              text-[#000000] text-xl
+                              text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Name *
               </div>
               <div className='
                               w-full aspect-[10/1]
-                              bg-[#FF5E191A] rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
 
               </div>
           </div>
-          <div className='mx-12 my-3 bg-transparent'>
+          <div className='mx-2 md:mx-12 my-3 bg-transparent'>
               <div className='mb-1
                               bg-transparent
-                              text-[#000000] text-xl
+                              text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Email *
               </div>
               <div className='
                               w-full aspect-[10/1]
-                              bg-[#FF5E191A] rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
 
               </div>
           </div>
-          <div className='mx-12 my-3 bg-transparent'>
+          <div className='mx-2 md:mx-12 my-3 bg-transparent'>
               <div className='mb-1
                               bg-transparent
-                              text-[#000000] text-xl
+                              text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Number *
               </div>
               <div className='
                               w-full aspect-[10/1]
-                              bg-[#FF5E191A] rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
 
               </div>
           </div>
-          <div className='mx-12 my-3 bg-transparent'>
+          <div className='mx-2 md:mx-12 my-3 bg-transparent'>
               <div className='mb-1
                               bg-transparent
-                              text-[#000000] text-xl
+                              text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Message *
               </div>
               <div className='
                               w-full aspect-[5/1]
-                              bg-[#FF5E191A] rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
 
               </div>
           </div>
-          <div className='mx-12 my-12 py-2
+          <div className='mx-2 md:mx-12 my-12 py-2
                         bg-[#FF5E19] rounded-xl
-                          text-center text-[1.5rem] text-[#FFFFFF]
+                          text-center text-xl md:text-[1.5rem] text-[#FFFFFF]
                           font-gilroy font-[600]'>
               SEND MESSAGE
           </div>
