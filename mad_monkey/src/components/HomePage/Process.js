@@ -9,7 +9,7 @@ import img3 from '../../assets/download (15) 1.png'
 const Process = () => {
   return (
   <div className='my-72 '>
-    <div className='ml-12 '>
+    <div className='ml-12 mr-20 '>
       <div className='font-gilroy text-[#FFFF00] text-xl my-10' >
         KEY PROCESS ---
       </div>

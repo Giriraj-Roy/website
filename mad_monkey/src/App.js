@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Content from './components/BlogContent/Content'
 import Blog from './pages/Blog'
 import CaseStudies from './pages/CaseStudies'
 import Contact from './pages/Contact'
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path='/contact' element={<Contact/>} />
         <Route exact path='/services' element={<Services/> } />
         <Route exact path='/blogs' element={<Blog/> } />
+        <Route exact path='/blogs/content' element={<Content/> } />
         <Route exact path='/casestudies' element={<CaseStudies/>} />
         <Route exact path='/vision' element={<Vision/> } />
       </Routes>

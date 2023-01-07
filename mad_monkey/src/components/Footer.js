@@ -2,6 +2,7 @@ import React from 'react'
 import linkedin from '../assets/linkedin.png'
 import insta from '../assets/insta.png'
 import facebook from '../assets/facebook.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -18,13 +19,21 @@ const Footer = () => {
           <br className='hidden md:block'/>
           <div className='font-gilroy bg-transparent'>
             <ul className='bg-transparent '>
-              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>Home</li>
+              <Link to='/'>
+                  <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>Home</li>
+              </Link>
               <br className='hidden md:block'/>
-              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>About Us</li>
+              <Link to='/services'>
+                  <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>Services</li>
+              </Link>
               <br className='hidden md:block'/>
+              <Link to='/casestudies'>
               <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>Case Studies</li>
+              </Link>
               <br className='hidden md:block'/>
-              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>Contact Us</li>
+              <Link to='/vision'>
+              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>Our Vision</li>
+              </Link>
 
             </ul>
           </div>
@@ -35,9 +44,9 @@ const Footer = () => {
           <br className='hidden md:block'/>
           <div className='font-gilroy bg-transparent'>
             <ul className='bg-transparent '>
-              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>+91 123456789</li>
+              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>+91 91106 60335</li>
               <br className='hidden md:block'/>
-              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>hey@gmail.com</li>
+              <li className='bg-transparent text-[#0D0D0D] text-xs md:text-xl font-semibold'>hey@madmonkey.in</li>
               <br className='hidden md:block'/>
             </ul>
           </div>
@@ -47,17 +56,17 @@ const Footer = () => {
           <br className='hidden md:block'/>
           <br className='hidden md:block'/>
           <div className='bg-transparent flex'>
-            <img className='bg-transparent' src={linkedin} alt='linkedin'/>
-            <img className='bg-transparent' src={insta} alt='insta'/>
-            <img className='bg-transparent' src={facebook} alt='facebook'/>
+            <img className='bg-transparent w-[3.25rem] h-[3.25rem]' src={linkedin} alt='linkedin'/>
+            <img className='bg-transparent m-[0.4rem] w-10 h-10' src={insta} alt='insta'/>
+            <img className='bg-transparent m-[0.4rem] w-10 h-10' src={facebook} alt='facebook'/>
 
           </div>
 
         </div>
       </div>
 
-        <div className='w-full  md:h-[50px] flex justify-center bg-[#28D596] ' >
-            <div className='mt-2 bg-transparent  text-black text-sm md:text-2xl font-gilroy font-semibold '>
+        <div className='w-full  md:h-[50px] flex justify-center bg-[#FF6E1A] ' >
+            <div className='mt-2 bg-transparent  text-white text-sm md:text-2xl font-gilroy font-semibold '>
               Designed & built with passion in India 🚀
             </div>
         </div>

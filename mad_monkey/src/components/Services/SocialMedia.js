@@ -9,7 +9,7 @@ const SocialMedia = () => {
         <img className='w-full' src={img} alt="customer"/>
       </div>
       <div className='mx-16 md:mx-0 md:mr-16 py-8 md:py-10 w-[70%] md:w-3/5 bg-[#00916E] rounded-3xl md:rounded-r-[3rem] md:rounded-l-none text-justify  '>
-        <div className='mx-10 md:mx-0 md:ml-[20rem] my-16 w-fit bg-transparent text-white text-4xl  font-[700]  '>
+        <div className='mx-10 md:mx-0 md:ml-[16rem] my-16 w-fit bg-transparent text-white text-4xl  font-[700]  '>
         Social Media Marketing
         </div>
         <div className='hidden md:block mx-16 pb-20 bg-transparent text-white text-2xl font-[500] '>

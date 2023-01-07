@@ -7,7 +7,7 @@ import ResultDriven from '../components/HomePage/ResultDriven'
 import Whyus from '../components/HomePage/Whyus'
 import Numbers from '../components/HomePage/Numbers'
 import ContactUs from '../components/ContactUs'
-import CaseStudies from '../components/HomePage/CaseStudies'
+// import CaseStudies from '../components/HomePage/CaseStudies'
 import HomeComp from '../components/HomePage/HomeComp'
 import Clients from '../components/HomePage/Clients'
 import Collaborate from '../components/HomePage/Collaborate'
@@ -24,7 +24,7 @@ const Home = () => {
       <Numbers />
       <Collaborate/>
       <Clients/>
-      <CaseStudies/>
+      {/* <CaseStudies/>    //This Section is no more needed. Services has a separate page now  */}
       <ContactUs/>
     </div>
   )

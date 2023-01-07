@@ -7,7 +7,7 @@ import ellipse from '../../assets/Ellipse 194.png'
 const ResultDriven = () => {
   return (
     <div className='ml-12 mt-[50rem]' >
-      <div className='font-gilroy text-[#FFFF00] text-xl my-10 '>
+      <div className='font-gilroy text-[#FFFF00] text-xl my-8 '>
         RESULT-DRIVEN SOLUTIONS ---
       </div>
       <div className='block md:flex w-9/10'>
@@ -24,7 +24,7 @@ const ResultDriven = () => {
         </div>
       </div>
 
-      <div className='mt-64'>
+      <div className='mt-32'>
         <div className='font-gilroy text-3xl md:text-5xl font-semibold w-4/5 md:w-1/2'>
           We work anywhere & everywhere
         </div>

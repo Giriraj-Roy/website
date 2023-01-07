@@ -10,7 +10,7 @@ import img5 from '../../assets/facebook.png'
 const Contact = () => {
   return (
     <div className='block md:flex
-                    mx-2  md:mx-16 my-20 md:my-10
+                    mx-2  md:mx-0 my-20 md:my-10
                     px-0  md:px-16 md:py-20
                     w-[100%]
                     md:bg-[#E63946] rounded-[3rem]  ' >
@@ -88,57 +88,73 @@ const Contact = () => {
                   We will connect with you in 24hrs
               </div>
           </div>
+          <form className='bg-transparent'>
           <div className='mx-2 md:mx-12 my-3 bg-transparent'>
-              <div className='mb-1
+              <label
+                    for="Name"
+                    className='mb-1
                               bg-transparent
                               text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Name *
-              </div>
-              <div className='
+              </label>
+              <input  type="text" id="Name" name="Name"
+                      className='
                               w-full aspect-[10/1]
-                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl
+                              text-[#000000] text-base md:text-xl
+                              font-gilroy font-[500]
+                            '/>
 
-              </div>
+              {/* </input> */}
           </div>
           <div className='mx-2 md:mx-12 my-3 bg-transparent'>
-              <div className='mb-1
+              <label className='mb-1
                               bg-transparent
                               text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Email *
-              </div>
-              <div className='
+              </label>
+              <input  type="text" id="email" name="email"
+                      className='
                               w-full aspect-[10/1]
-                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl 
+                              text-[#000000] text-base md:text-xl
+                              font-gilroy font-[500] '>
 
-              </div>
+              </input>
           </div>
           <div className='mx-2 md:mx-12 my-3 bg-transparent'>
-              <div className='mb-1
+              <label className='mb-1
                               bg-transparent
                               text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Number *
-              </div>
-              <div className='
+              </label>
+              <input  type="number" id="number" name="number"
+                      className='
                               w-full aspect-[10/1]
-                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl
+                              text-[#000000] text-base md:text-xl
+                              font-gilroy font-[500]  '>
 
-              </div>
+              </input>
           </div>
           <div className='mx-2 md:mx-12 my-3 bg-transparent'>
-              <div className='mb-1
+              <label className='mb-1
                               bg-transparent
                               text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
                     Message *
-              </div>
-              <div className='
+              </label>
+              <input  type="text" id="message" name="message"
+                      className='
                               w-full aspect-[5/1]
-                              bg-[#FF5E191A] rounded-sm md:rounded-xl '>
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl
+                              text-[#000000] text-base md:text-xl
+                              font-gilroy font-[500]  '>
 
-              </div>
+              </input>
           </div>
           <div className='mx-2 md:mx-12 my-12 py-2
                         bg-[#FF5E19] rounded-xl
@@ -146,6 +162,7 @@ const Contact = () => {
                           font-gilroy font-[600]'>
               SEND MESSAGE
           </div>
+          </form>
       </div>
 
 

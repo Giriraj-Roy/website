@@ -16,14 +16,28 @@ const Navbar = () => {
         </div>
 
         <div className='hidden lg:block absolute left-1/4 mt-4  p-4 m-auto'>
-          <Link className='m-10' to='/contact'>Contact</Link>
-          <Link className='' to='/casestudies'>CaseStudies</Link>
+          <Link className='m-5' to='/contact'>Contact</Link>
+          <Link className='m-5' to='/casestudies'>CaseStudies</Link>
+          <Link className='m-5' to='/services'>Services</Link>
+          <Link className='m-5' to='/casestudies'>Testimonials</Link>
+
 
         </div>
-        <div className={`${open ? 'flex' : 'hidden'} mt-32 absolute`}>
+        <div className='right-10 absolute
+                        mt-5 px-4 py-2
+                        w-fit
+                        bg-gradient-to-br from-[#E1467C] to-[#205284] rounded-full
+                        font-gilroy  text-xl font-medium '>
+          Join 1 hour free advice
+        </div>
+        <div className={`${open ? 'flex' : 'hidden'}
+                          mt-32 absolute
+                          bg-black`}>
                 <ul className='flex'>
                   <li><Link className='m-5' to='/contact'>Contact</Link></li>
                   <li><Link className='' to='/casestudies'>CaseStudies</Link></li>
+                  <li><Link className='m-10' to='/services'>Services</Link></li>
+                  <li><Link className='m-10' to='/casestudies'>Testimonials</Link></li>
                   {/* <li>Content</li>
                   <li>Content</li> */}
 

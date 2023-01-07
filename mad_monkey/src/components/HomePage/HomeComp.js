@@ -30,13 +30,13 @@ const HomeComp = () => {
                 className='hidden md:block absolute bg-transparent w-[15rem] top-[20rem] left-[68rem] '
                 src={img2} alt='highlights'/>
             <img
-                className='hidden md:block absolute bg-transparent w-[15rem] top-[12rem] left-[36rem]'
+                className='hidden md:block absolute bg-transparent w-[15rem] top-[12rem] left-[40rem]'
                 src={img3} alt='highlights'/>
             <img
-                className='hidden md:block absolute bg-transparent w-[20rem] top-[29rem] left-[30rem] '
+                className='hidden md:block absolute bg-transparent w-[20rem] top-[29rem] left-[34rem] '
                 src={img4} alt='highlights'/>
             <img
-                className='hidden md:block absolute bg-transparent w-[18rem] top-[41rem] left-[60rem] '
+                className='hidden md:block absolute bg-transparent w-[18rem] top-[41rem] left-[64rem] '
                 src={img5} alt='highlights'/>
 
           </div>

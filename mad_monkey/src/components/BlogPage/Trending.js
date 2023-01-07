@@ -5,8 +5,12 @@ import emo2 from '../../assets/Emojis/image 1367.png'
 const Trending = () => {
   return (
     <div className='my-32 mx-6 md:mx-16 font-gilroy text-white '>
-      <div className='my-16 px-8 py-3 text-4xl  font-[600] flex drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)] w-fit rounded-full bg-black justify-around'>
-            <img className='bg-transparent' src={emo2} alt='tired emoji'/>
+      <div className='flex
+                      my-16 px-8 py-3 text-4xl
+                      w-fit
+                      bg-gradient-to-r from-slate-600 to-[#161313] rounded-full justify-around
+                      font-[600] drop-shadow-[0px_4px_4px_rgba(255,255,255,0.25)]'>
+            <img className='bg-transparent  mr-2' src={emo2} alt='tired emoji'/>
             Trending
       </div>
       <div className='block md:flex'>
