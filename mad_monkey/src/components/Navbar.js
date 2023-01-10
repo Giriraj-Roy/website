@@ -23,7 +23,8 @@ const Navbar = () => {
 
 
         </div>
-        <div className='right-10 absolute
+        <div className='hidden md:block
+                        right-10 absolute
                         mt-5 px-4 py-2
                         w-fit
                         bg-gradient-to-br from-[#E1467C] to-[#205284] rounded-full

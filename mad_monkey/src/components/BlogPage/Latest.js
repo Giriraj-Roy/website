@@ -14,16 +14,21 @@ const Latest = () => {
             Latest
         </div>
         <div className='block  md:grid grid-cols-3'>
-          <div className='w-full md:w-4/5 flex md:block'>
-            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
+          <div className='w-full md:w-4/5 flex md:block '>
+            <div className='my-3 md:my-10 pt-20
+                            w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3]
+                            bg-[#E63946] rounded-3xl
+                            text-[3rem] text-white text-center
+                            font-bebas-neue font-[400] '>
+            BRANDING
             </div>
             <div className='w-3/5 md:w-auto'>
               <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
-              How to add multiplication in history of deathnote by the world
+              Building a Brand, are you?
               </div>
               <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
 
-                  How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+              Are you tired of researching how to start your journey of making your business a brand ?
 
 
               </div>
@@ -36,14 +41,19 @@ const Latest = () => {
             </button> */}
           </div>
           <div className='w-full md:w-4/5 flex md:block'>
-            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
+            <div className='my-3 md:my-10 pt-20
+                            w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3]
+                            bg-[#00916E] rounded-3xl
+                            text-[3rem] text-white text-center
+                            font-bebas-neue font-[400] '>
+              SOCIAL MEDIA
             </div>
             <div className='w-3/5 md:w-auto'>
               <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
-              How to add multiplication in history of deathnote by the world
+              It's social media strategy, not rocket science :)
               </div>
               <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
-              How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+              Are you looking to develop a social media strategy for your business but don't know where to start? You're not alone.....
               </div>
               <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
@@ -54,14 +64,19 @@ const Latest = () => {
             </button> */}
           </div>
           <div className='w-full md:w-4/5 flex md:block'>
-            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
+            <div className='my-3 md:my-10 pt-20
+                            w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3]
+                            bg-[#E63946] rounded-3xl
+                            text-[3rem] text-white text-center
+                            font-bebas-neue font-[400] '>
+              REVIEWS
             </div>
             <div className='w-3/5 md:w-auto'>
               <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
-              How to add multiplication in history of deathnote by the world
+              Customer reviews are Important!
               </div>
               <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
-              How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+              Customer reviews are an important aspect of any business. In today's digital age, customers often rely......
               </div>
               <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
@@ -72,14 +87,19 @@ const Latest = () => {
             </button> */}
           </div>
           <div className='w-full md:w-4/5 flex md:block'>
-            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
+            <div className='my-3 md:my-10 pt-20
+                            w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3]
+                            bg-[#00916E] rounded-3xl
+                            text-[3rem] text-white text-center
+                            font-bebas-neue font-[400] '>
+              CONENT
             </div>
             <div className='w-3/5 md:w-auto'>
               <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
-              How to add multiplication in history of deathnote by the world
+              Content! Content! Content!
               </div>
               <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
-              How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+              In recent years, the importance of content in social media marketing has grown significantly.  As more and .......
               </div>
               <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
@@ -90,14 +110,19 @@ const Latest = () => {
             </button> */}
           </div>
           <div className='w-full md:w-4/5 flex md:block'>
-            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
+            <div className='my-3 md:my-10 pt-20
+                            w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3]
+                            bg-[#E63946] rounded-3xl
+                            text-[3rem] text-white text-center
+                            font-bebas-neue font-[400] '>
+            E-COMMERCE
             </div>
             <div className='w-3/5 md:w-auto'>
               <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
-              How to add multiplication in history of deathnote by the world
+              You say sales, We say E-commerce !!
               </div>
               <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
-              How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+              With the advent of the eCommerce boom, every business is trying to come up with it’s e-commerce stores.....
               </div>
               <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More
@@ -108,14 +133,19 @@ const Latest = () => {
             </button> */}
           </div>
           <div className='w-full md:w-4/5 flex md:block'>
-            <div className='my-3 md:my-10 w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3] bg-white rounded-3xl'>
+            <div className='my-3 md:my-10 pt-10
+                            w-2/5 md:w-full aspect-[5/3] md:aspect-[4/3]
+                            bg-[#00916E] rounded-3xl
+                            text-[3rem] text-white text-center
+                            font-bebas-neue font-[400] '>
+              INFLUENCER MARKETING
             </div>
             <div className='w-3/5 md:w-auto'>
               <div className='ml-5 md:ml-0 mt-3 md:mt-0 md:my-10 text-xl md:text-3xl  md:text-[2.5rem] font-[600] line-clamp-2 '>
-              How to add multiplication in history of deathnote by the world
+              Influencer Marketing, the new buzz…..
               </div>
               <div className=' hidden md:block text-xl md:text-2xl font-[500] '>
-              How to add multiplication in history of deathnote by saiman says and dont know lets find out How to add multiplication
+              Influencer marketing is a form of marketing in which brands collaborate with individuals who have a large following......
               </div>
               <button className='ml-5  md:ml-0 my-2 md:my-8 md:px-10 md:py-2 underline md:no-underline text-white md:text-[#0D0D0D] md:text-[1.5rem] md:font-[600] md:rounded-full md:bg-[#FFFFFF] '>
               Read More

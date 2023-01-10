@@ -98,7 +98,7 @@ const Contact = () => {
                               font-gilroy font-[500] '>
                     Name *
               </label>
-              <input  type="text" id="Name" name="Name"
+              <input  type="text" id="Name" name="Name" required
                       className='
                               w-full aspect-[10/1]
                               bg-[#FF5E191A] rounded-sm md:rounded-xl
@@ -115,10 +115,10 @@ const Contact = () => {
                               font-gilroy font-[500] '>
                     Email *
               </label>
-              <input  type="text" id="email" name="email"
+              <input  type="text" id="email" name="email" required
                       className='
                               w-full aspect-[10/1]
-                              bg-[#FF5E191A] rounded-sm md:rounded-xl 
+                              bg-[#FF5E191A] rounded-sm md:rounded-xl
                               text-[#000000] text-base md:text-xl
                               font-gilroy font-[500] '>
 
@@ -131,7 +131,7 @@ const Contact = () => {
                               font-gilroy font-[500] '>
                     Number *
               </label>
-              <input  type="number" id="number" name="number"
+              <input  type="number" id="number" name="number" required
                       className='
                               w-full aspect-[10/1]
                               bg-[#FF5E191A] rounded-sm md:rounded-xl

@@ -2,19 +2,24 @@ import React from 'react'
 
 const Content = () => {
     return (
-        <div className='flex'>
-            <div>
+        <div className='mx-20 flex'>
+            <div className='w-full
+                            '>
                 <div>
-                    Title
+                Selling like hotcakes, on Instagram
                 </div>
-                <div className='relative w-[50%] aspect-square'>
-                    Image
+                <div className='pt-20
+                            w-full md:w-full aspect-video
+                            rounded-3xl bg-[#FF6E1A]
+                            text-[6rem] text-center
+                            font-bebas-neue '>
+                    SELLING ON INSTAGRAM
                 </div>
                 <div>
                     description
                 </div>
             </div>
-            <div className='bg-transparent block'>
+            {/* <div className='bg-transparent block'>
                 <div className='block
                                 absolute top-50 right-20
                                 w-1/5
@@ -57,7 +62,7 @@ const Content = () => {
                         <div>Facebook</div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
